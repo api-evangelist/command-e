@@ -1,8 +1,27 @@
 aid: command-e
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/command-e.png
 name: Command E
-description: 'Command E is a company surfaced as a portfolio company of amplify-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Command E was a universal search startup that built a keyboard-driven (Cmd+E)
+  desktop tool for searching across the cloud applications people use at work —
+  Google Drive, Slack, Notion, email, and more — from a single command bar,
+  returning unified results without switching apps. The company was backed by
+  Amplify Partners in the ai-ml / productivity search space. Command E was
+  acquired by Dropbox in 2021, and its team went on to help build Dropbox Dash.
+  Its former developer/marketing site at getcommande.com no longer resolves, so
+  no live API, OpenAPI, or developer documentation surface is available to
+  enrich; this profile is retained as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/command-e/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,22 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: dropbox
+x-acquired-year: '2021'
+x-site-status: offline
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Search
+- Universal Search
+- Enterprise Search
+- Productivity
+- Desktop
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://getcommande.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
